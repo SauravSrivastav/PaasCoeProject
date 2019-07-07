@@ -1,0 +1,3 @@
+C:\Users\saurav.srivastava\Desktop\PaasCoe\obj\Debug\netcoreapp2.2\PaasCoe.csproj.CoreCompileInputs.cache
+C:\Users\saurav.srivastava\Desktop\PaasCoe\obj\Debug\netcoreapp2.2\PaasCoe.AssemblyInfoInputs.cache
+C:\Users\saurav.srivastava\Desktop\PaasCoe\obj\Debug\netcoreapp2.2\PaasCoe.AssemblyInfo.cs
