@@ -9,6 +9,8 @@ using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using Microsoft.EntityFrameworkCore;
+using PaasCoe.Models;
 
 namespace PaasCoe
 {
@@ -33,6 +35,9 @@ namespace PaasCoe
 
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+
+            services.AddDbContext<EmployeesContext>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("EmployeesContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
